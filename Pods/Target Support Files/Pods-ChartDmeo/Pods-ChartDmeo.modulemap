@@ -1,0 +1,6 @@
+framework module Pods_ChartDmeo {
+  umbrella header "Pods-ChartDmeo-umbrella.h"
+
+  export *
+  module * { export * }
+}

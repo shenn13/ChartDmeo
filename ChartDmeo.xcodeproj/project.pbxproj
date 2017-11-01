@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95E01124283B56E186F81795 /* Pods_ChartDmeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5E91D39A784F2DFE15C9DD /* Pods_ChartDmeo.framework */; };
+		C5DFD6851FA812FF00192572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD6841FA812FF00192572 /* main.m */; };
+		C5DFD6881FA812FF00192572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD6871FA812FF00192572 /* AppDelegate.m */; };
+		C5DFD68B1FA812FF00192572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD68A1FA812FF00192572 /* ViewController.m */; };
+		C5DFD68E1FA812FF00192572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD68C1FA812FF00192572 /* Main.storyboard */; };
+		C5DFD6901FA812FF00192572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD68F1FA812FF00192572 /* Assets.xcassets */; };
+		C5DFD6931FA812FF00192572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD6911FA812FF00192572 /* LaunchScreen.storyboard */; };
+		C5DFD69E1FA812FF00192572 /* ChartDmeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD69D1FA812FF00192572 /* ChartDmeoTests.m */; };
+		C5DFD6A91FA812FF00192572 /* ChartDmeoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD6A81FA812FF00192572 /* ChartDmeoUITests.m */; };
+		C5DFD7531FA818EA00192572 /* DateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD74D1FA818EA00192572 /* DateValueFormatter.m */; };
+		C5DFD7541FA818EA00192572 /* DayAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD74F1FA818EA00192572 /* DayAxisValueFormatter.m */; };
+		C5DFD7551FA818EA00192572 /* IntAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7511FA818EA00192572 /* IntAxisValueFormatter.m */; };
+		C5DFD75A1FA8196300192572 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7581FA8196300192572 /* DemoListViewController.m */; };
+		C5DFD75B1FA8196300192572 /* DemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7591FA8196300192572 /* DemoListViewController.xib */; };
+		C5DFD75E1FA8198900192572 /* DemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD75D1FA8198900192572 /* DemoBaseViewController.m */; };
+		C5DFD7A51FA819AC00192572 /* AnotherBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7611FA819AC00192572 /* AnotherBarChartViewController.m */; };
+		C5DFD7A61FA819AC00192572 /* AnotherBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7621FA819AC00192572 /* AnotherBarChartViewController.xib */; };
+		C5DFD7A71FA819AC00192572 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7641FA819AC00192572 /* BarChartViewController.m */; };
+		C5DFD7A81FA819AC00192572 /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7651FA819AC00192572 /* BarChartViewController.xib */; };
+		C5DFD7A91FA819AC00192572 /* BubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7671FA819AC00192572 /* BubbleChartViewController.m */; };
+		C5DFD7AA1FA819AC00192572 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7681FA819AC00192572 /* BubbleChartViewController.xib */; };
+		C5DFD7AB1FA819AC00192572 /* CandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD76A1FA819AC00192572 /* CandleStickChartViewController.m */; };
+		C5DFD7AC1FA819AC00192572 /* CandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD76B1FA819AC00192572 /* CandleStickChartViewController.xib */; };
+		C5DFD7AD1FA819AC00192572 /* ColoredLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD76D1FA819AC00192572 /* ColoredLineChartViewController.m */; };
+		C5DFD7AE1FA819AC00192572 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD76E1FA819AC00192572 /* ColoredLineChartViewController.xib */; };
+		C5DFD7AF1FA819AC00192572 /* CombinedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7701FA819AC00192572 /* CombinedChartViewController.m */; };
+		C5DFD7B01FA819AC00192572 /* CombinedChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7711FA819AC00192572 /* CombinedChartViewController.xib */; };
+		C5DFD7B11FA819AC00192572 /* CubicLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7731FA819AC00192572 /* CubicLineChartViewController.m */; };
+		C5DFD7B21FA819AC00192572 /* CubicLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7741FA819AC00192572 /* CubicLineChartViewController.xib */; };
+		C5DFD7B31FA819AC00192572 /* HalfPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7761FA819AC00192572 /* HalfPieChartViewController.m */; };
+		C5DFD7B41FA819AC00192572 /* HalfPieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7771FA819AC00192572 /* HalfPieChartViewController.xib */; };
+		C5DFD7B51FA819AC00192572 /* HorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7791FA819AC00192572 /* HorizontalBarChartViewController.m */; };
+		C5DFD7B61FA819AC00192572 /* HorizontalBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD77A1FA819AC00192572 /* HorizontalBarChartViewController.xib */; };
+		C5DFD7B71FA819AC00192572 /* LineChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD77C1FA819AC00192572 /* LineChart1ViewController.m */; };
+		C5DFD7B81FA819AC00192572 /* LineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD77D1FA819AC00192572 /* LineChart1ViewController.xib */; };
+		C5DFD7B91FA819AC00192572 /* LineChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD77F1FA819AC00192572 /* LineChart2ViewController.m */; };
+		C5DFD7BA1FA819AC00192572 /* LineChart2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7801FA819AC00192572 /* LineChart2ViewController.xib */; };
+		C5DFD7BB1FA819AC00192572 /* LineChartFilledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7821FA819AC00192572 /* LineChartFilledViewController.m */; };
+		C5DFD7BC1FA819AC00192572 /* LineChartFilledViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7831FA819AC00192572 /* LineChartFilledViewController.xib */; };
+		C5DFD7BD1FA819AC00192572 /* LineChartTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7851FA819AC00192572 /* LineChartTimeViewController.m */; };
+		C5DFD7BE1FA819AC00192572 /* LineChartTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7861FA819AC00192572 /* LineChartTimeViewController.xib */; };
+		C5DFD7BF1FA819AC00192572 /* MultipleBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7881FA819AC00192572 /* MultipleBarChartViewController.m */; };
+		C5DFD7C01FA819AC00192572 /* MultipleBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7891FA819AC00192572 /* MultipleBarChartViewController.xib */; };
+		C5DFD7C11FA819AC00192572 /* MultipleLinesChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD78B1FA819AC00192572 /* MultipleLinesChartViewController.m */; };
+		C5DFD7C21FA819AC00192572 /* MultipleLinesChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD78C1FA819AC00192572 /* MultipleLinesChartViewController.xib */; };
+		C5DFD7C31FA819AC00192572 /* NegativeStackedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD78E1FA819AC00192572 /* NegativeStackedBarChartViewController.m */; };
+		C5DFD7C41FA819AC00192572 /* NegativeStackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD78F1FA819AC00192572 /* NegativeStackedBarChartViewController.xib */; };
+		C5DFD7C51FA819AC00192572 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7911FA819AC00192572 /* PieChartViewController.m */; };
+		C5DFD7C61FA819AC00192572 /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7921FA819AC00192572 /* PieChartViewController.xib */; };
+		C5DFD7C71FA819AC00192572 /* PiePolylineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7941FA819AC00192572 /* PiePolylineChartViewController.m */; };
+		C5DFD7C81FA819AC00192572 /* PiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7951FA819AC00192572 /* PiePolylineChartViewController.xib */; };
+		C5DFD7C91FA819AC00192572 /* PositiveNegativeBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7971FA819AC00192572 /* PositiveNegativeBarChartViewController.m */; };
+		C5DFD7CA1FA819AC00192572 /* PositiveNegativeBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7981FA819AC00192572 /* PositiveNegativeBarChartViewController.xib */; };
+		C5DFD7CB1FA819AC00192572 /* RadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD79A1FA819AC00192572 /* RadarChartViewController.m */; };
+		C5DFD7CC1FA819AC00192572 /* RadarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD79B1FA819AC00192572 /* RadarChartViewController.xib */; };
+		C5DFD7CD1FA819AC00192572 /* ScatterChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD79D1FA819AC00192572 /* ScatterChartViewController.m */; };
+		C5DFD7CE1FA819AC00192572 /* ScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD79E1FA819AC00192572 /* ScatterChartViewController.xib */; };
+		C5DFD7CF1FA819AC00192572 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7A01FA819AC00192572 /* SinusBarChartViewController.m */; };
+		C5DFD7D01FA819AC00192572 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7A11FA819AC00192572 /* SinusBarChartViewController.xib */; };
+		C5DFD7D11FA819AC00192572 /* StackedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7A31FA819AC00192572 /* StackedBarChartViewController.m */; };
+		C5DFD7D21FA819AC00192572 /* StackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DFD7A41FA819AC00192572 /* StackedBarChartViewController.xib */; };
+		C5DFD7D51FA81B2F00192572 /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7D41FA81B2F00192572 /* LargeValueFormatter.swift */; };
+		C5DFD7D91FA853F500192572 /* ChartBarMultipleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFD7D81FA853F500192572 /* ChartBarMultipleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5DFD69A1FA812FF00192572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5DFD6781FA812FF00192572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5DFD67F1FA812FF00192572;
+			remoteInfo = ChartDmeo;
+		};
+		C5DFD6A51FA812FF00192572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5DFD6781FA812FF00192572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5DFD67F1FA812FF00192572;
+			remoteInfo = ChartDmeo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2576DDB3B34E894B26A16291 /* Pods-ChartDmeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartDmeo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartDmeo/Pods-ChartDmeo.release.xcconfig"; sourceTree = "<group>"; };
+		5F5E91D39A784F2DFE15C9DD /* Pods_ChartDmeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartDmeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88F4ED9FB7E3575954B0DB /* Pods-ChartDmeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartDmeo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartDmeo/Pods-ChartDmeo.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DFD6801FA812FF00192572 /* ChartDmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartDmeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DFD6841FA812FF00192572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5DFD6861FA812FF00192572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5DFD6871FA812FF00192572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5DFD6891FA812FF00192572 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5DFD68A1FA812FF00192572 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5DFD68D1FA812FF00192572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5DFD68F1FA812FF00192572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5DFD6921FA812FF00192572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5DFD6941FA812FF00192572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DFD6991FA812FF00192572 /* ChartDmeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartDmeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DFD69D1FA812FF00192572 /* ChartDmeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartDmeoTests.m; sourceTree = "<group>"; };
+		C5DFD69F1FA812FF00192572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DFD6A41FA812FF00192572 /* ChartDmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartDmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DFD6A81FA812FF00192572 /* ChartDmeoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartDmeoUITests.m; sourceTree = "<group>"; };
+		C5DFD6AA1FA812FF00192572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DFD74C1FA818EA00192572 /* DateValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateValueFormatter.h; sourceTree = "<group>"; };
+		C5DFD74D1FA818EA00192572 /* DateValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateValueFormatter.m; sourceTree = "<group>"; };
+		C5DFD74E1FA818EA00192572 /* DayAxisValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayAxisValueFormatter.h; sourceTree = "<group>"; };
+		C5DFD74F1FA818EA00192572 /* DayAxisValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayAxisValueFormatter.m; sourceTree = "<group>"; };
+		C5DFD7501FA818EA00192572 /* IntAxisValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntAxisValueFormatter.h; sourceTree = "<group>"; };
+		C5DFD7511FA818EA00192572 /* IntAxisValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntAxisValueFormatter.m; sourceTree = "<group>"; };
+		C5DFD7571FA8196300192572 /* DemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
+		C5DFD7581FA8196300192572 /* DemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
+		C5DFD7591FA8196300192572 /* DemoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoListViewController.xib; sourceTree = "<group>"; };
+		C5DFD75C1FA8198900192572 /* DemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBaseViewController.h; sourceTree = "<group>"; };
+		C5DFD75D1FA8198900192572 /* DemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBaseViewController.m; sourceTree = "<group>"; };
+		C5DFD7601FA819AC00192572 /* AnotherBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7611FA819AC00192572 /* AnotherBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7621FA819AC00192572 /* AnotherBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7631FA819AC00192572 /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7641FA819AC00192572 /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7651FA819AC00192572 /* BarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7661FA819AC00192572 /* BubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7671FA819AC00192572 /* BubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7681FA819AC00192572 /* BubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7691FA819AC00192572 /* CandleStickChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleStickChartViewController.h; sourceTree = "<group>"; };
+		C5DFD76A1FA819AC00192572 /* CandleStickChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleStickChartViewController.m; sourceTree = "<group>"; };
+		C5DFD76B1FA819AC00192572 /* CandleStickChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandleStickChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD76C1FA819AC00192572 /* ColoredLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredLineChartViewController.h; sourceTree = "<group>"; };
+		C5DFD76D1FA819AC00192572 /* ColoredLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredLineChartViewController.m; sourceTree = "<group>"; };
+		C5DFD76E1FA819AC00192572 /* ColoredLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColoredLineChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD76F1FA819AC00192572 /* CombinedChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7701FA819AC00192572 /* CombinedChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinedChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7711FA819AC00192572 /* CombinedChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombinedChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7721FA819AC00192572 /* CubicLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicLineChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7731FA819AC00192572 /* CubicLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicLineChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7741FA819AC00192572 /* CubicLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubicLineChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7751FA819AC00192572 /* HalfPieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfPieChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7761FA819AC00192572 /* HalfPieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfPieChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7771FA819AC00192572 /* HalfPieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HalfPieChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7781FA819AC00192572 /* HorizontalBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7791FA819AC00192572 /* HorizontalBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD77A1FA819AC00192572 /* HorizontalBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD77B1FA819AC00192572 /* LineChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart1ViewController.h; sourceTree = "<group>"; };
+		C5DFD77C1FA819AC00192572 /* LineChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart1ViewController.m; sourceTree = "<group>"; };
+		C5DFD77D1FA819AC00192572 /* LineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart1ViewController.xib; sourceTree = "<group>"; };
+		C5DFD77E1FA819AC00192572 /* LineChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart2ViewController.h; sourceTree = "<group>"; };
+		C5DFD77F1FA819AC00192572 /* LineChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart2ViewController.m; sourceTree = "<group>"; };
+		C5DFD7801FA819AC00192572 /* LineChart2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart2ViewController.xib; sourceTree = "<group>"; };
+		C5DFD7811FA819AC00192572 /* LineChartFilledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartFilledViewController.h; sourceTree = "<group>"; };
+		C5DFD7821FA819AC00192572 /* LineChartFilledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartFilledViewController.m; sourceTree = "<group>"; };
+		C5DFD7831FA819AC00192572 /* LineChartFilledViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChartFilledViewController.xib; sourceTree = "<group>"; };
+		C5DFD7841FA819AC00192572 /* LineChartTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartTimeViewController.h; sourceTree = "<group>"; };
+		C5DFD7851FA819AC00192572 /* LineChartTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartTimeViewController.m; sourceTree = "<group>"; };
+		C5DFD7861FA819AC00192572 /* LineChartTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChartTimeViewController.xib; sourceTree = "<group>"; };
+		C5DFD7871FA819AC00192572 /* MultipleBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7881FA819AC00192572 /* MultipleBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7891FA819AC00192572 /* MultipleBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD78A1FA819AC00192572 /* MultipleLinesChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleLinesChartViewController.h; sourceTree = "<group>"; };
+		C5DFD78B1FA819AC00192572 /* MultipleLinesChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleLinesChartViewController.m; sourceTree = "<group>"; };
+		C5DFD78C1FA819AC00192572 /* MultipleLinesChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleLinesChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD78D1FA819AC00192572 /* NegativeStackedBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NegativeStackedBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD78E1FA819AC00192572 /* NegativeStackedBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NegativeStackedBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD78F1FA819AC00192572 /* NegativeStackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NegativeStackedBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7901FA819AC00192572 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7911FA819AC00192572 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7921FA819AC00192572 /* PieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7931FA819AC00192572 /* PiePolylineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiePolylineChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7941FA819AC00192572 /* PiePolylineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiePolylineChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7951FA819AC00192572 /* PiePolylineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiePolylineChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7961FA819AC00192572 /* PositiveNegativeBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositiveNegativeBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7971FA819AC00192572 /* PositiveNegativeBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositiveNegativeBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7981FA819AC00192572 /* PositiveNegativeBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PositiveNegativeBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7991FA819AC00192572 /* RadarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD79A1FA819AC00192572 /* RadarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD79B1FA819AC00192572 /* RadarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD79C1FA819AC00192572 /* ScatterChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScatterChartViewController.h; sourceTree = "<group>"; };
+		C5DFD79D1FA819AC00192572 /* ScatterChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScatterChartViewController.m; sourceTree = "<group>"; };
+		C5DFD79E1FA819AC00192572 /* ScatterChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScatterChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD79F1FA819AC00192572 /* SinusBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7A01FA819AC00192572 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7A11FA819AC00192572 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7A21FA819AC00192572 /* StackedBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackedBarChartViewController.h; sourceTree = "<group>"; };
+		C5DFD7A31FA819AC00192572 /* StackedBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackedBarChartViewController.m; sourceTree = "<group>"; };
+		C5DFD7A41FA819AC00192572 /* StackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackedBarChartViewController.xib; sourceTree = "<group>"; };
+		C5DFD7D31FA81B2E00192572 /* ChartDmeo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartDmeo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5DFD7D41FA81B2F00192572 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		C5DFD7D71FA853F500192572 /* ChartBarMultipleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBarMultipleView.h; sourceTree = "<group>"; };
+		C5DFD7D81FA853F500192572 /* ChartBarMultipleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBarMultipleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5DFD67D1FA812FF00192572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E01124283B56E186F81795 /* Pods_ChartDmeo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6961FA812FF00192572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6A11FA812FF00192572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B99364DA9F60179E0CE8FCDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E88F4ED9FB7E3575954B0DB /* Pods-ChartDmeo.debug.xcconfig */,
+				2576DDB3B34E894B26A16291 /* Pods-ChartDmeo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5DFD6771FA812FF00192572 = {
+			isa = PBXGroup;
+			children = (
+				C5DFD6821FA812FF00192572 /* ChartDmeo */,
+				C5DFD69C1FA812FF00192572 /* ChartDmeoTests */,
+				C5DFD6A71FA812FF00192572 /* ChartDmeoUITests */,
+				C5DFD6811FA812FF00192572 /* Products */,
+				B99364DA9F60179E0CE8FCDD /* Pods */,
+				C5E01E4E5B4845DACD437D2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5DFD6811FA812FF00192572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD6801FA812FF00192572 /* ChartDmeo.app */,
+				C5DFD6991FA812FF00192572 /* ChartDmeoTests.xctest */,
+				C5DFD6A41FA812FF00192572 /* ChartDmeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5DFD6821FA812FF00192572 /* ChartDmeo */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD7D61FA853CB00192572 /* CharBarView */,
+				C5DFD75F1FA819AC00192572 /* Demos */,
+				C5DFD74B1FA818EA00192572 /* Formatters */,
+				C5DFD6861FA812FF00192572 /* AppDelegate.h */,
+				C5DFD6871FA812FF00192572 /* AppDelegate.m */,
+				C5DFD6891FA812FF00192572 /* ViewController.h */,
+				C5DFD68A1FA812FF00192572 /* ViewController.m */,
+				C5DFD7571FA8196300192572 /* DemoListViewController.h */,
+				C5DFD7581FA8196300192572 /* DemoListViewController.m */,
+				C5DFD7591FA8196300192572 /* DemoListViewController.xib */,
+				C5DFD75C1FA8198900192572 /* DemoBaseViewController.h */,
+				C5DFD75D1FA8198900192572 /* DemoBaseViewController.m */,
+				C5DFD68C1FA812FF00192572 /* Main.storyboard */,
+				C5DFD68F1FA812FF00192572 /* Assets.xcassets */,
+				C5DFD6911FA812FF00192572 /* LaunchScreen.storyboard */,
+				C5DFD6941FA812FF00192572 /* Info.plist */,
+				C5DFD6831FA812FF00192572 /* Supporting Files */,
+			);
+			path = ChartDmeo;
+			sourceTree = "<group>";
+		};
+		C5DFD6831FA812FF00192572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD6841FA812FF00192572 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5DFD69C1FA812FF00192572 /* ChartDmeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD69D1FA812FF00192572 /* ChartDmeoTests.m */,
+				C5DFD69F1FA812FF00192572 /* Info.plist */,
+			);
+			path = ChartDmeoTests;
+			sourceTree = "<group>";
+		};
+		C5DFD6A71FA812FF00192572 /* ChartDmeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD6A81FA812FF00192572 /* ChartDmeoUITests.m */,
+				C5DFD6AA1FA812FF00192572 /* Info.plist */,
+			);
+			path = ChartDmeoUITests;
+			sourceTree = "<group>";
+		};
+		C5DFD74B1FA818EA00192572 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD74C1FA818EA00192572 /* DateValueFormatter.h */,
+				C5DFD74D1FA818EA00192572 /* DateValueFormatter.m */,
+				C5DFD74E1FA818EA00192572 /* DayAxisValueFormatter.h */,
+				C5DFD74F1FA818EA00192572 /* DayAxisValueFormatter.m */,
+				C5DFD7501FA818EA00192572 /* IntAxisValueFormatter.h */,
+				C5DFD7511FA818EA00192572 /* IntAxisValueFormatter.m */,
+				C5DFD7D41FA81B2F00192572 /* LargeValueFormatter.swift */,
+				C5DFD7D31FA81B2E00192572 /* ChartDmeo-Bridging-Header.h */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		C5DFD75F1FA819AC00192572 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD7601FA819AC00192572 /* AnotherBarChartViewController.h */,
+				C5DFD7611FA819AC00192572 /* AnotherBarChartViewController.m */,
+				C5DFD7621FA819AC00192572 /* AnotherBarChartViewController.xib */,
+				C5DFD7631FA819AC00192572 /* BarChartViewController.h */,
+				C5DFD7641FA819AC00192572 /* BarChartViewController.m */,
+				C5DFD7651FA819AC00192572 /* BarChartViewController.xib */,
+				C5DFD7661FA819AC00192572 /* BubbleChartViewController.h */,
+				C5DFD7671FA819AC00192572 /* BubbleChartViewController.m */,
+				C5DFD7681FA819AC00192572 /* BubbleChartViewController.xib */,
+				C5DFD7691FA819AC00192572 /* CandleStickChartViewController.h */,
+				C5DFD76A1FA819AC00192572 /* CandleStickChartViewController.m */,
+				C5DFD76B1FA819AC00192572 /* CandleStickChartViewController.xib */,
+				C5DFD76C1FA819AC00192572 /* ColoredLineChartViewController.h */,
+				C5DFD76D1FA819AC00192572 /* ColoredLineChartViewController.m */,
+				C5DFD76E1FA819AC00192572 /* ColoredLineChartViewController.xib */,
+				C5DFD76F1FA819AC00192572 /* CombinedChartViewController.h */,
+				C5DFD7701FA819AC00192572 /* CombinedChartViewController.m */,
+				C5DFD7711FA819AC00192572 /* CombinedChartViewController.xib */,
+				C5DFD7721FA819AC00192572 /* CubicLineChartViewController.h */,
+				C5DFD7731FA819AC00192572 /* CubicLineChartViewController.m */,
+				C5DFD7741FA819AC00192572 /* CubicLineChartViewController.xib */,
+				C5DFD7751FA819AC00192572 /* HalfPieChartViewController.h */,
+				C5DFD7761FA819AC00192572 /* HalfPieChartViewController.m */,
+				C5DFD7771FA819AC00192572 /* HalfPieChartViewController.xib */,
+				C5DFD7781FA819AC00192572 /* HorizontalBarChartViewController.h */,
+				C5DFD7791FA819AC00192572 /* HorizontalBarChartViewController.m */,
+				C5DFD77A1FA819AC00192572 /* HorizontalBarChartViewController.xib */,
+				C5DFD77B1FA819AC00192572 /* LineChart1ViewController.h */,
+				C5DFD77C1FA819AC00192572 /* LineChart1ViewController.m */,
+				C5DFD77D1FA819AC00192572 /* LineChart1ViewController.xib */,
+				C5DFD77E1FA819AC00192572 /* LineChart2ViewController.h */,
+				C5DFD77F1FA819AC00192572 /* LineChart2ViewController.m */,
+				C5DFD7801FA819AC00192572 /* LineChart2ViewController.xib */,
+				C5DFD7811FA819AC00192572 /* LineChartFilledViewController.h */,
+				C5DFD7821FA819AC00192572 /* LineChartFilledViewController.m */,
+				C5DFD7831FA819AC00192572 /* LineChartFilledViewController.xib */,
+				C5DFD7841FA819AC00192572 /* LineChartTimeViewController.h */,
+				C5DFD7851FA819AC00192572 /* LineChartTimeViewController.m */,
+				C5DFD7861FA819AC00192572 /* LineChartTimeViewController.xib */,
+				C5DFD7871FA819AC00192572 /* MultipleBarChartViewController.h */,
+				C5DFD7881FA819AC00192572 /* MultipleBarChartViewController.m */,
+				C5DFD7891FA819AC00192572 /* MultipleBarChartViewController.xib */,
+				C5DFD78A1FA819AC00192572 /* MultipleLinesChartViewController.h */,
+				C5DFD78B1FA819AC00192572 /* MultipleLinesChartViewController.m */,
+				C5DFD78C1FA819AC00192572 /* MultipleLinesChartViewController.xib */,
+				C5DFD78D1FA819AC00192572 /* NegativeStackedBarChartViewController.h */,
+				C5DFD78E1FA819AC00192572 /* NegativeStackedBarChartViewController.m */,
+				C5DFD78F1FA819AC00192572 /* NegativeStackedBarChartViewController.xib */,
+				C5DFD7901FA819AC00192572 /* PieChartViewController.h */,
+				C5DFD7911FA819AC00192572 /* PieChartViewController.m */,
+				C5DFD7921FA819AC00192572 /* PieChartViewController.xib */,
+				C5DFD7931FA819AC00192572 /* PiePolylineChartViewController.h */,
+				C5DFD7941FA819AC00192572 /* PiePolylineChartViewController.m */,
+				C5DFD7951FA819AC00192572 /* PiePolylineChartViewController.xib */,
+				C5DFD7961FA819AC00192572 /* PositiveNegativeBarChartViewController.h */,
+				C5DFD7971FA819AC00192572 /* PositiveNegativeBarChartViewController.m */,
+				C5DFD7981FA819AC00192572 /* PositiveNegativeBarChartViewController.xib */,
+				C5DFD7991FA819AC00192572 /* RadarChartViewController.h */,
+				C5DFD79A1FA819AC00192572 /* RadarChartViewController.m */,
+				C5DFD79B1FA819AC00192572 /* RadarChartViewController.xib */,
+				C5DFD79C1FA819AC00192572 /* ScatterChartViewController.h */,
+				C5DFD79D1FA819AC00192572 /* ScatterChartViewController.m */,
+				C5DFD79E1FA819AC00192572 /* ScatterChartViewController.xib */,
+				C5DFD79F1FA819AC00192572 /* SinusBarChartViewController.h */,
+				C5DFD7A01FA819AC00192572 /* SinusBarChartViewController.m */,
+				C5DFD7A11FA819AC00192572 /* SinusBarChartViewController.xib */,
+				C5DFD7A21FA819AC00192572 /* StackedBarChartViewController.h */,
+				C5DFD7A31FA819AC00192572 /* StackedBarChartViewController.m */,
+				C5DFD7A41FA819AC00192572 /* StackedBarChartViewController.xib */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		C5DFD7D61FA853CB00192572 /* CharBarView */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFD7D71FA853F500192572 /* ChartBarMultipleView.h */,
+				C5DFD7D81FA853F500192572 /* ChartBarMultipleView.m */,
+			);
+			path = CharBarView;
+			sourceTree = "<group>";
+		};
+		C5E01E4E5B4845DACD437D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F5E91D39A784F2DFE15C9DD /* Pods_ChartDmeo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5DFD67F1FA812FF00192572 /* ChartDmeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DFD6AD1FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeo" */;
+			buildPhases = (
+				E9F1F9534A217207AB02988D /* [CP] Check Pods Manifest.lock */,
+				C5DFD67C1FA812FF00192572 /* Sources */,
+				C5DFD67D1FA812FF00192572 /* Frameworks */,
+				C5DFD67E1FA812FF00192572 /* Resources */,
+				44C63B7DC104FE99E3DC96C9 /* [CP] Embed Pods Frameworks */,
+				778C828371EA5DFB1A84D6DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartDmeo;
+			productName = ChartDmeo;
+			productReference = C5DFD6801FA812FF00192572 /* ChartDmeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5DFD6981FA812FF00192572 /* ChartDmeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DFD6B01FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeoTests" */;
+			buildPhases = (
+				C5DFD6951FA812FF00192572 /* Sources */,
+				C5DFD6961FA812FF00192572 /* Frameworks */,
+				C5DFD6971FA812FF00192572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DFD69B1FA812FF00192572 /* PBXTargetDependency */,
+			);
+			name = ChartDmeoTests;
+			productName = ChartDmeoTests;
+			productReference = C5DFD6991FA812FF00192572 /* ChartDmeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5DFD6A31FA812FF00192572 /* ChartDmeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DFD6B31FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeoUITests" */;
+			buildPhases = (
+				C5DFD6A01FA812FF00192572 /* Sources */,
+				C5DFD6A11FA812FF00192572 /* Frameworks */,
+				C5DFD6A21FA812FF00192572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DFD6A61FA812FF00192572 /* PBXTargetDependency */,
+			);
+			name = ChartDmeoUITests;
+			productName = ChartDmeoUITests;
+			productReference = C5DFD6A41FA812FF00192572 /* ChartDmeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5DFD6781FA812FF00192572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "沈增光";
+				TargetAttributes = {
+					C5DFD67F1FA812FF00192572 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					C5DFD6981FA812FF00192572 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5DFD67F1FA812FF00192572;
+					};
+					C5DFD6A31FA812FF00192572 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5DFD67F1FA812FF00192572;
+					};
+				};
+			};
+			buildConfigurationList = C5DFD67B1FA812FF00192572 /* Build configuration list for PBXProject "ChartDmeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5DFD6771FA812FF00192572;
+			productRefGroup = C5DFD6811FA812FF00192572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5DFD67F1FA812FF00192572 /* ChartDmeo */,
+				C5DFD6981FA812FF00192572 /* ChartDmeoTests */,
+				C5DFD6A31FA812FF00192572 /* ChartDmeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5DFD67E1FA812FF00192572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFD7CC1FA819AC00192572 /* RadarChartViewController.xib in Resources */,
+				C5DFD7B01FA819AC00192572 /* CombinedChartViewController.xib in Resources */,
+				C5DFD7BE1FA819AC00192572 /* LineChartTimeViewController.xib in Resources */,
+				C5DFD7D21FA819AC00192572 /* StackedBarChartViewController.xib in Resources */,
+				C5DFD7C61FA819AC00192572 /* PieChartViewController.xib in Resources */,
+				C5DFD7C41FA819AC00192572 /* NegativeStackedBarChartViewController.xib in Resources */,
+				C5DFD7C81FA819AC00192572 /* PiePolylineChartViewController.xib in Resources */,
+				C5DFD7BC1FA819AC00192572 /* LineChartFilledViewController.xib in Resources */,
+				C5DFD7B81FA819AC00192572 /* LineChart1ViewController.xib in Resources */,
+				C5DFD7B41FA819AC00192572 /* HalfPieChartViewController.xib in Resources */,
+				C5DFD7AA1FA819AC00192572 /* BubbleChartViewController.xib in Resources */,
+				C5DFD6931FA812FF00192572 /* LaunchScreen.storyboard in Resources */,
+				C5DFD7CA1FA819AC00192572 /* PositiveNegativeBarChartViewController.xib in Resources */,
+				C5DFD6901FA812FF00192572 /* Assets.xcassets in Resources */,
+				C5DFD7C21FA819AC00192572 /* MultipleLinesChartViewController.xib in Resources */,
+				C5DFD68E1FA812FF00192572 /* Main.storyboard in Resources */,
+				C5DFD7C01FA819AC00192572 /* MultipleBarChartViewController.xib in Resources */,
+				C5DFD7D01FA819AC00192572 /* SinusBarChartViewController.xib in Resources */,
+				C5DFD7A81FA819AC00192572 /* BarChartViewController.xib in Resources */,
+				C5DFD7AE1FA819AC00192572 /* ColoredLineChartViewController.xib in Resources */,
+				C5DFD7B61FA819AC00192572 /* HorizontalBarChartViewController.xib in Resources */,
+				C5DFD7CE1FA819AC00192572 /* ScatterChartViewController.xib in Resources */,
+				C5DFD7BA1FA819AC00192572 /* LineChart2ViewController.xib in Resources */,
+				C5DFD7AC1FA819AC00192572 /* CandleStickChartViewController.xib in Resources */,
+				C5DFD75B1FA8196300192572 /* DemoListViewController.xib in Resources */,
+				C5DFD7A61FA819AC00192572 /* AnotherBarChartViewController.xib in Resources */,
+				C5DFD7B21FA819AC00192572 /* CubicLineChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6971FA812FF00192572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6A21FA812FF00192572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44C63B7DC104FE99E3DC96C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartDmeo/Pods-ChartDmeo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778C828371EA5DFB1A84D6DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartDmeo/Pods-ChartDmeo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F1F9534A217207AB02988D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5DFD67C1FA812FF00192572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFD7CF1FA819AC00192572 /* SinusBarChartViewController.m in Sources */,
+				C5DFD68B1FA812FF00192572 /* ViewController.m in Sources */,
+				C5DFD7B31FA819AC00192572 /* HalfPieChartViewController.m in Sources */,
+				C5DFD7C51FA819AC00192572 /* PieChartViewController.m in Sources */,
+				C5DFD7C31FA819AC00192572 /* NegativeStackedBarChartViewController.m in Sources */,
+				C5DFD7551FA818EA00192572 /* IntAxisValueFormatter.m in Sources */,
+				C5DFD7AB1FA819AC00192572 /* CandleStickChartViewController.m in Sources */,
+				C5DFD7CD1FA819AC00192572 /* ScatterChartViewController.m in Sources */,
+				C5DFD75E1FA8198900192572 /* DemoBaseViewController.m in Sources */,
+				C5DFD7AF1FA819AC00192572 /* CombinedChartViewController.m in Sources */,
+				C5DFD7BF1FA819AC00192572 /* MultipleBarChartViewController.m in Sources */,
+				C5DFD7B91FA819AC00192572 /* LineChart2ViewController.m in Sources */,
+				C5DFD7AD1FA819AC00192572 /* ColoredLineChartViewController.m in Sources */,
+				C5DFD7A51FA819AC00192572 /* AnotherBarChartViewController.m in Sources */,
+				C5DFD6881FA812FF00192572 /* AppDelegate.m in Sources */,
+				C5DFD7B11FA819AC00192572 /* CubicLineChartViewController.m in Sources */,
+				C5DFD7D51FA81B2F00192572 /* LargeValueFormatter.swift in Sources */,
+				C5DFD7D11FA819AC00192572 /* StackedBarChartViewController.m in Sources */,
+				C5DFD7BB1FA819AC00192572 /* LineChartFilledViewController.m in Sources */,
+				C5DFD7A71FA819AC00192572 /* BarChartViewController.m in Sources */,
+				C5DFD7531FA818EA00192572 /* DateValueFormatter.m in Sources */,
+				C5DFD7BD1FA819AC00192572 /* LineChartTimeViewController.m in Sources */,
+				C5DFD6851FA812FF00192572 /* main.m in Sources */,
+				C5DFD7B71FA819AC00192572 /* LineChart1ViewController.m in Sources */,
+				C5DFD7CB1FA819AC00192572 /* RadarChartViewController.m in Sources */,
+				C5DFD7C71FA819AC00192572 /* PiePolylineChartViewController.m in Sources */,
+				C5DFD75A1FA8196300192572 /* DemoListViewController.m in Sources */,
+				C5DFD7A91FA819AC00192572 /* BubbleChartViewController.m in Sources */,
+				C5DFD7B51FA819AC00192572 /* HorizontalBarChartViewController.m in Sources */,
+				C5DFD7541FA818EA00192572 /* DayAxisValueFormatter.m in Sources */,
+				C5DFD7C91FA819AC00192572 /* PositiveNegativeBarChartViewController.m in Sources */,
+				C5DFD7C11FA819AC00192572 /* MultipleLinesChartViewController.m in Sources */,
+				C5DFD7D91FA853F500192572 /* ChartBarMultipleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6951FA812FF00192572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFD69E1FA812FF00192572 /* ChartDmeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DFD6A01FA812FF00192572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFD6A91FA812FF00192572 /* ChartDmeoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5DFD69B1FA812FF00192572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5DFD67F1FA812FF00192572 /* ChartDmeo */;
+			targetProxy = C5DFD69A1FA812FF00192572 /* PBXContainerItemProxy */;
+		};
+		C5DFD6A61FA812FF00192572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5DFD67F1FA812FF00192572 /* ChartDmeo */;
+			targetProxy = C5DFD6A51FA812FF00192572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5DFD68C1FA812FF00192572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DFD68D1FA812FF00192572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5DFD6911FA812FF00192572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DFD6921FA812FF00192572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5DFD6AB1FA812FF00192572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5DFD6AC1FA812FF00192572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5DFD6AE1FA812FF00192572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E88F4ED9FB7E3575954B0DB /* Pods-ChartDmeo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ChartDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartDmeo/Formatters/ChartDmeo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5DFD6AF1FA812FF00192572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2576DDB3B34E894B26A16291 /* Pods-ChartDmeo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ChartDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartDmeo/Formatters/ChartDmeo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5DFD6B11FA812FF00192572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChartDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartDmeo.app/ChartDmeo";
+			};
+			name = Debug;
+		};
+		C5DFD6B21FA812FF00192572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChartDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartDmeo.app/ChartDmeo";
+			};
+			name = Release;
+		};
+		C5DFD6B41FA812FF00192572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChartDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChartDmeo;
+			};
+			name = Debug;
+		};
+		C5DFD6B51FA812FF00192572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChartDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shen13.ChartDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChartDmeo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5DFD67B1FA812FF00192572 /* Build configuration list for PBXProject "ChartDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DFD6AB1FA812FF00192572 /* Debug */,
+				C5DFD6AC1FA812FF00192572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DFD6AD1FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DFD6AE1FA812FF00192572 /* Debug */,
+				C5DFD6AF1FA812FF00192572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DFD6B01FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DFD6B11FA812FF00192572 /* Debug */,
+				C5DFD6B21FA812FF00192572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DFD6B31FA812FF00192572 /* Build configuration list for PBXNativeTarget "ChartDmeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DFD6B41FA812FF00192572 /* Debug */,
+				C5DFD6B51FA812FF00192572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5DFD6781FA812FF00192572 /* Project object */;
+}
