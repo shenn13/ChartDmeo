@@ -22,8 +22,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-//    DemoListViewController *vc = [[DemoListViewController alloc] init];
-    ViewController *vc = [[ViewController alloc] init];
+    DemoListViewController *vc = [[DemoListViewController alloc] init];
+//    ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
     
     _window.rootViewController = nvc;
